@@ -1,0 +1,23 @@
+.footer {
+  color: #d9d9d9;
+  background-color: #323232;
+}
+
+.footer-content li {
+  cursor: pointer;
+}
+
+.footer .social-icons img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.footer hr {
+  height: 2px;
+  background-color: gray;
+  border: none;
+}
+
+.footer .copy-right span {
+  color: tomato;
+}

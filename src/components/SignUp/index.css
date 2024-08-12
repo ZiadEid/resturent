@@ -1,0 +1,48 @@
+.sign-up {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999999999999;
+}
+
+.sign-up form {
+  width: max(32vw, 330px);
+  color: #808080;
+  gap: 25px;
+  padding: 25px 30px;
+  font-size: 14px;
+}
+
+.sign-up .title img {
+  width: 16px;
+  cursor: pointer;
+}
+
+.sign-up .btns {
+  gap: 20px;
+}
+
+.sign-up .btns input {
+  outline: none;
+  border:1px solid #c9c9c9;
+}
+
+.sign-up button {
+  background-color: tomato;
+  font-size: 15px;
+}
+
+.sign-up button:hover {
+  background-color: rgb(253, 87, 57);
+}
+
+.sign-up .condition p {
+  margin-top: -4px;
+}
+
+.sign-up form > p {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sign-up form > p:hover {
+  color: tomato;
+}

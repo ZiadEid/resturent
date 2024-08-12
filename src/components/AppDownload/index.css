@@ -1,0 +1,19 @@
+.app-download {
+  font-size: max(3vw, 20px);
+  font-weight: 500;
+}
+
+.download-btns {
+  gap: max(2vw, 10px);
+}
+
+.download-btns img {
+  width: max(30vw, 120px);
+  max-width: 180px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.download-btns img:hover {
+  transform: scale(1.05);
+}

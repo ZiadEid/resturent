@@ -1,0 +1,44 @@
+.sign-in {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999999999999;
+}
+
+.sign-in form {
+  width: max(32vw, 330px);
+  color: #808080;
+  gap: 25px;
+  padding: 25px 30px;
+  font-size: 14px;
+}
+
+.sign-in .title img {
+  width: 16px;
+  cursor: pointer;
+}
+
+.sign-in .btns {
+  gap: 20px;
+}
+
+.sign-in .btns input {
+  outline: none;
+  border:1px solid #c9c9c9;
+}
+
+.sign-in form button {
+  background-color: tomato;
+  font-size: 15px;
+}
+
+.sign-in button:hover {
+  background-color: rgb(253, 87, 57);
+}
+
+.sign-in form > p {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sign-in form > p:hover {
+  color: tomato;
+}

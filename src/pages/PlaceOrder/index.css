@@ -1,0 +1,15 @@
+.place-order .left,
+.place-order .right
+ {
+  max-width: max(40%, 500px);
+}
+
+.place-order .left .title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.place-order .left input {
+  border: 1px solid #c5c5c5;
+  outline-color: tomato;
+}
